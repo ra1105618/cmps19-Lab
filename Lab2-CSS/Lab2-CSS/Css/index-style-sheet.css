@@ -1,0 +1,268 @@
+body {
+    padding: 1rem;
+}
+
+.container {
+    max-width: 1190px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 1em;
+    background-color: white;
+
+}
+@media (min-width: 700px) {
+    .container {
+        padding: 0;
+        display: grid;
+        grid-template-areas: 'header'
+                              'main'
+                               'footer';
+        grid-template-columns: 1fr;
+    }
+}
+
+
+
+
+.container{
+
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+
+}
+
+header{
+    grid-area: header;
+
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+
+    justify-content: space-between;
+    top: 5px;
+    left: 10px;
+
+    cursor: pointer;
+    padding: 12px;
+
+
+
+
+}
+nav{
+
+    dispaly:flex;
+    flex-wrap: wrap;
+   background-color: antiquewhite;
+
+
+    padding: 0 16px;
+
+
+}
+
+nav img{
+
+    width:200px;
+    height:200px;
+    margin-left: 42px;
+    margin-bottom: 200px;
+    flex: 200px;
+}
+
+
+
+nav ul  {
+
+    width:200px;
+
+
+    margin-top:400px;
+
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: baseline;
+    justify-content: space-between;
+
+
+
+}
+
+#right-nav{
+
+
+    margin-top: -200px;
+    margin-left: 900px;
+    margin-top: -400px;
+    margin-right: 400px;
+    margin-right: 0;
+
+}
+
+#bottom-nav {
+
+    margin-left: 300px;
+    margin-top:100px;
+    background-color: darkgreen;
+    height: 40px;
+    align-items: center;
+    width:400px;
+
+
+
+
+
+
+
+}
+nav ul a{
+    text-decoration: none;
+
+
+}
+nav ul li{
+
+    list-style-type: none;
+
+}
+
+#bottom-nav a{
+
+    color: white;
+}
+
+/*#bottom-nav {
+    background-color: darkgreen;
+
+}*/
+
+a:hover{
+
+    font-weight: bolder;
+
+}
+
+main{
+
+
+
+
+
+
+
+
+
+   display: flex;
+    grid-area: main;
+
+
+
+
+
+
+}
+
+h1{
+    margin-left: 300px;
+    margin-top:-90px;
+
+}
+
+section{
+
+    grid-area: main;
+    background-color: #f1f1f1;
+    display: flex;
+    flex-wrap: wrap;
+
+
+
+
+
+    /*display:flex;*/
+
+
+
+
+
+
+
+
+
+
+
+}
+
+.listOfImages{
+
+
+
+
+
+
+
+
+
+    display:grid;
+
+    grid-template-columns: repeat(4, 1fr) ;
+    margin-left: 100px;
+    grid-column-gap: 5px;
+    grid-row-gap: 10px;
+    align-content: center;
+    align-items: center;
+
+
+
+
+
+
+
+
+}
+
+
+footer{
+    grid-area: footer;
+
+
+    display:flex;
+    flex-wrap: wrap;
+
+    margin-left: 2px;
+    background-color: darkgreen;
+    margin-top: 20px;
+
+}
+
+main img{
+
+    width:200px;
+    height:200px;
+}
+
+footer p{
+
+    color: white;
+}
+
+@media(min-width: 700px) {
+
+    .container{
+
+        display: grid;
+        grid-template-columns: 1fr 1fr   ;
+
+
+
+
+    }
+
+
+
+}
+
+
+
+
