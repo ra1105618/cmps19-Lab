@@ -1,0 +1,78 @@
+[
+  {
+
+    "Id": 1,
+    "firstName": "Ahmed",
+    "lastName": "Ali",
+
+    "borrowerBook": [
+
+      {
+        "id": 26
+      },
+
+      {
+        "id": 28
+      },
+
+      {
+        "id": 33
+      }
+    ]
+
+  },
+
+  {
+    "Id": 2,
+    "firstName": "Nabil",
+    "lastName": "Nasser",
+    "borrowerBook": [
+
+      {
+        "id": 33
+      },
+
+      {
+        "id": 26
+      },
+      {
+        "id": 30
+      },
+      {
+        "id": 28
+      }
+    ]
+  },
+
+  {
+    "Id": 3,
+    "firstName": "Ahmed",
+    "lastName": "Hani",
+    "borrowerBook": [
+
+      {
+        "id": 28
+      },
+
+      {
+        "id": 26
+      }
+
+    ]
+  },
+  {
+    "Id": 4,
+    "firstName": "Riyam",
+    "lastName": "Abass",
+    "borrowerBook": [
+
+      {
+        "id": 30
+      },
+
+      {
+        "id": 28
+      }
+    ]
+  }
+]
